@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    width: 1440px;
+}
+
+.container {
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-1 {
+    position: relative;
+    width: 380px;
+    border-radius: 15px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+.box {
+    background-color: #fff;
+    border: none;
+    height: 580px;
+    width: 380px;
+    margin: 4rem 29rem;
+    border-radius: 15px;
+}
+
+.box-2 {
+    display: flex;
+    border: none;
+    border-radius: 12px;
+    background-color: hsl(225, 100%, 98%);
+    margin: 1.4rem;
+    padding: 8px 8px;
+    align-items: center;
+
+}
+
+.music-icon {
+    display: inline-block;
+    padding: 1rem 0;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.title {
+    display: inline-block;
+    position: absolute;
+    right: 50%;
+    color: hsl(245, 32%, 38%);
+}
+
+.change-txt {
+    display: inline-block;
+    position: absolute;
+    left: 55%;
+}
+
+h2 {
+    text-align: center;
+    align-items: center;
+    padding: 1rem 0;
+    color: hsl(245, 32%, 38%);
+}
+
+.overview {
+    color:hsl(224, 23%, 55%);
+    padding: 0 2rem;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(38, 38, 209);
+    padding: 16px 50px;
+    width: 333px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.cancel {
+    color: hsl(224, 23%, 55%);
+    padding-bottom: 0;
+    padding-top: 1rem;
+    cursor: pointer;
+}
+
+.cancel:hover {
+    text-decoration: underline;
+}
